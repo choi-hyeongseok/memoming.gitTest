@@ -1,2 +1,5 @@
-## mybalance
-## 실험 테스트
+## This page is a collection of computer-related materials.
+
+
+### Chapter 1 Computer structure
+
