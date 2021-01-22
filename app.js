@@ -5,7 +5,7 @@ var cors = require('cors');
 app.use(cors());
 app.use(bodyParser.json());
 var mongo = require('mongodb').MongoClient;
-var url = 'mongodb://lintang:1234@localhost:27017/dojo';
+// var url = 'mongodb://lintang:1234@localhost:27017/dojo';
 
 mongo.connect(url, (err)=>{
     console.log('Terhubung ke database!')
