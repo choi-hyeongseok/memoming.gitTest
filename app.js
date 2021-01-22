@@ -4,12 +4,12 @@ var bodyParser = require('body-parser');
 var cors = require('cors');
 app.use(cors());
 app.use(bodyParser.json());
-var mongo = require('mongodb').MongoClient;
+// var mongo = require('mongodb').MongoClient;
 // var url = 'mongodb://lintang:1234@localhost:27017/dojo';
 
-mongo.connect(url, (err)=>{
-    console.log('Terhubung ke database!')
-})
+// mongo.connect(url, (err)=>{
+//     console.log('Terhubung ke database!')
+// })
 
 app.get('/data', (req, res)=>{
     // mongo.connect(url, (err, db)=>{
