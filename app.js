@@ -20,8 +20,8 @@ app.get('/data', (req, res)=>{
     // })
     // res.send('kinder');
     res.send({
-        nama: 'seok',
-        usia: 'sksksksk'
+        nama: 'choi hyeongseok',
+        usia: 'wonder'
       })
 })
 
