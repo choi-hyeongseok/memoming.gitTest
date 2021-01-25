@@ -25,9 +25,7 @@ app.get('/data', (req, res)=>{
       })
 })
 
-app.post('/data', (req, res)
-
-=>{
+app.post('/data', (req, res)=>{
     // mongo.connect(url, (err, db)=>{
     //     var collection = db.collection('ninja');
     //     var sesuatu = {
@@ -41,6 +39,7 @@ app.post('/data', (req, res)
     res.send('worder');
 })
 
-app.listen(3210, ()=>{
-    console.log('Server aktif @port 3210!');
+const port = process.env.PORT || 3000;
+app.listen(port, ()=>{
+    console.log('Server aktif @port 3000!');
 })
